@@ -8,6 +8,9 @@
     height: auto;
     display: block;
   }
+  button {
+    border: none;
+  }
 
   a:active,
   a:link,

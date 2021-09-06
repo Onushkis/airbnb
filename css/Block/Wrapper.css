@@ -1,0 +1,19 @@
+.Wrapper {
+    padding-top: 80px;
+    display: flex;
+    /* flex: 2; */
+    background: white;
+}
+.Wrapper__text-content-container {
+flex: 1;
+padding: 24px;
+height: 100%;
+}
+.Wrapper__text-content-container *{
+    padding: 1em 0;
+}
+.Wrapper__map {
+    flex: 1;
+    width: 50vw;
+    height: calc(100vh - 80px);
+}

@@ -8,6 +8,9 @@
 /* Blocks */
 @import url("./css/Block/Header.css");
 @import url("./css/Block/Nav.css");
+@import url("./css/Block/Main.css");
+@import url("./css/Block/Wrapper.css");
+@import url("./css/Block/Section.css");
 
 /* Mixes */
 @import url("./css/mixes.css");
