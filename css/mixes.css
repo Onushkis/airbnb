@@ -1,0 +1,12 @@
+.box-shadow_lrg {
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.27);
+}
+.box-shadow_sml {
+  box-shadow: 0px 15px 19px -18px rgba(0, 0, 0, 0.41);
+}
+.txt-bold {
+  font-weight: 700;
+}
+.txt-med {
+  font-weight: 500;
+}
