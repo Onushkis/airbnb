@@ -3,20 +3,23 @@ display: flex;
 align-content: space-between;
 
 }
-/* .Section__paragraph {
-} */
+
 .Section__btn {
 border: 1px solid var(--clr_lightgrey);
 background: white;
 padding: 10px;
 border-radius: 30px;
 }
-/* .Section__header-text {
 
-} */
 .Section__spc-text {
 text-decoration: underline;
 }
 .Section__icon {
 font-size: 1.5rem;
+}
+.Section__header,
+.Section__footer,
+.Section__paragraph,
+.Section__btn-container {
+    padding-bottom: 12px;
 }
