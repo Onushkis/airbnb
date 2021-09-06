@@ -67,3 +67,10 @@
 .Article__icon-star{
     color: var(--clr_airbnb-red);
 }
+
+/* .Article__link {
+    display: inline-block;
+    background: red;
+    position: absolute;
+    z-index: 3;
+} */
