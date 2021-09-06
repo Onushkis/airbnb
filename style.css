@@ -1,6 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+:root {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Header {
+    background: red;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+}
+.Header__nav {
+    background: chartreuse;
+    height: 42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
+.Nav__burger-container {
+    /* display: flex; */
+    /* background: chocolate; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border: 1px solid #717171;
+    padding: 5px 10px;
+    width: 77px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #717171;
+}
+
+.fa-user-circle {
+    font-size: 2rem;
+}
+.fa-bar {
+    font-size: 1.5rem;
+
+}
+.Nav-mid-area{
+    padding: 4px 5px;
+    display: flex;
+    border-radius: 30px;
+background: white;
+    border: 1px solid #717171;
+}
+.Nav-mid-area__unordered-list{
+    display: flex;
+}
+.Nav-mid-area__list-item{
+    list-style-type: none;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+}
+.Nav-mid-area__search-icon {
+    background: red;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.Nav-mid-area__list-item:nth-child(2){
+    position: relative;    
+}
+.Nav-mid-area__list-item:nth-child(2)::before{
+    width: 1px;
+    height: 70%;
+    background: pink;
+    position: absolute;
+    content: '';
+    left: 0;    
+}
+.Nav-mid-area__list-item:nth-child(2)::after{
+    width: 1px;
+    height: 70%;
+    background: pink;
+    position: absolute;
+    content: '';
+    right: 0;    
+}
