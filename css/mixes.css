@@ -13,6 +13,9 @@
 .txt-med {
   font-weight: 500;
 }
+.txt-linethrough {
+  text-decoration: line-through;
+}
 
 .border-radius-leftB-leftT {
   border-radius: 20px 0 0 20px;
@@ -23,11 +26,24 @@
 .border-radius-rightB {
   border-radius: 0 0 20px 0;
 }
+
+.Article__unordered-list_flex-end {
+  flex-direction: row-reverse;
+}
 .flex-container {
   align-items: center;
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
+
 .flex-space-between {
   width: 100%;
   justify-content: space-between;
+}
+.border-radius{
+  border-radius: 10px;
+}
+.padding-b-m {
+  padding-bottom: 12px;
 }

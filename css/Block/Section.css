@@ -34,3 +34,6 @@ font-size: 1.5rem;
     display: flex;
     flex-direction: column;
 }
+.Section-produkt-container{
+    padding: 80px 20px;
+}

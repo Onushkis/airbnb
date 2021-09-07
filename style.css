@@ -13,6 +13,8 @@
 @import url("./css/Block/Section.css");
 @import url("./css/Block/Article.css");
 @import url("./css/Block/Gallery.css");
+@import url("./css/Block/Table.css");
+@import url("./css/Block/Profil.css");
 
 /* Mixes */
 @import url("./css/mixes.css");

@@ -1,0 +1,30 @@
+.Profil {
+  padding: 10px 0;
+}
+.Profil__container {
+  display: flex;
+}
+.Profile__header {
+  padding-bottom: 10px;
+}
+.Profil__text-container {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Profil__section, .Profil__footer,
+.Profil-footer__text {
+    padding: 20px 0;
+}
+
+.Profil-footer__text {
+    
+  display: flex;
+  width: 40ch;
+  font-size: 0.8rem;
+}
+.Profil__icon-shield {
+  font-size: 2rem;
+  padding-right: 20px;
+}
