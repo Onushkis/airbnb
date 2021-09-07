@@ -1,0 +1,38 @@
+.Gallery {
+    height: 100%;
+    max-width: 70vw;
+    display: grid;
+    grid-template: repeat(2,1fr)/repeat(2,1fr);
+    gap: 10px;
+}
+.Gallery__img-container_l {
+    grid-area: 1/1/-1/2;
+}
+.Gallery__img-container_thumbnail {
+    grid-area: 1/2/-1/-1;
+    display: grid;
+    grid-template: repeat(2,1fr)/repeat(2,1fr);
+    gap: 10px;
+    position: relative;
+}  
+.Gallery__img {
+    object-fit: fill;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+.Gallery__img-show-more-btn{
+    grid-area: 1/2/-1/-1;
+    position: absolute;
+    z-index: 3;
+    bottom: 20px;
+    right: 20px;
+    padding: 1em 1.2em;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.Gallery__btn-icon {
+    font-size: 1rem;
+    padding: 0 20px 0 0;
+}

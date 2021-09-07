@@ -23,3 +23,7 @@ font-size: 1.5rem;
 .Section__btn-container {
     padding-bottom: 12px;
 }
+
+.Section-produkt-container {
+    flex-direction: column;
+}

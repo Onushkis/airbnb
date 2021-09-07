@@ -10,3 +10,13 @@
 .txt-med {
   font-weight: 500;
 }
+
+.border-radius-leftB-leftT {
+  border-radius: 20px 0 0 20px;
+}
+.border-radius-rightT {
+  border-radius: 0 20px 0 0;
+}
+.border-radius-rightB {
+  border-radius: 0 0 20px 0;
+}

@@ -12,6 +12,7 @@
 @import url("./css/Block/Wrapper.css");
 @import url("./css/Block/Section.css");
 @import url("./css/Block/Article.css");
+@import url("./css/Block/Gallery.css");
 
 /* Mixes */
 @import url("./css/mixes.css");
