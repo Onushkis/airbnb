@@ -1,0 +1,77 @@
+.Nav-mid-area__search-icon {
+  color: white;
+}
+
+.Nav-mid-area {
+  padding: 4px 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background: white;
+  border: 1px solid #c7c7c7;
+}
+.Nav-mid-area__unordered-list {
+  display: flex;
+}
+.Nav-mid-area__list-item {
+  list-style-type: none;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+}
+.Nav-mid-area__search-icon {
+  background: var(--clr_airbnb-red);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.Nav-mid-area__list-item:nth-child(2) {
+  position: relative;
+}
+.Nav-mid-area__list-item:nth-child(2)::before {
+  width: 1px;
+  height: 70%;
+  background: pink;
+  position: absolute;
+  content: "";
+  left: 0;
+}
+.Nav-mid-area__list-item:nth-child(2)::after {
+  width: 1px;
+  height: 70%;
+  background: pink;
+  position: absolute;
+  content: "";
+  right: 0;
+}
+.Nav-right-area__container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Nav__burger-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border: 1px solid #717171;
+  padding: 5px 5px;
+  width: 75px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #717171;
+}
+
+.Nav__burger-container__icon_l {
+    font-size: 2rem;
+}
+.Nav__burger-container__icon_m {
+    font-size: 1.5rem;
+}
+
+.Nav-right-area__link{
+  color: #717171;
+}

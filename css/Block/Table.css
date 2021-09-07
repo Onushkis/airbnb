@@ -1,0 +1,14 @@
+.Table {
+    padding: 20px 0;
+    border-top: 1px solid var(--clr_lightgrey);
+    border-bottom: 1px solid var(--clr_lightgrey);
+}
+.Table__container {
+    width: 100%;
+}
+.Table__data {
+    padding: 10px 0;
+}
+.Table__icon {
+    padding: 0 10px 0 0;
+}

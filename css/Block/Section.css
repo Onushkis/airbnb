@@ -1,0 +1,39 @@
+.Section{
+display: flex;
+align-content: space-between;
+
+}
+
+.Section__btn {
+border: 1px solid var(--clr_lightgrey);
+background: white;
+padding: 10px;
+border-radius: 30px;
+}
+
+.Section__spc-text {
+text-decoration: underline;
+}
+.Section__icon {
+font-size: 1.5rem;
+}
+.Section__header,
+.Section__footer,
+.Section__paragraph,
+.Section__btn-container {
+    padding-bottom: 12px;
+}
+
+
+.Section-produkt-container {
+    flex-direction: column;
+}
+.Section-product-container__header{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+.Section-produkt-container{
+    padding: 80px 20px;
+}
