@@ -64,13 +64,33 @@
 .Article__icon-heart {
     font-size: 1.5rem;
 }
-.Article__icon-star{
+.Article__icon-star,
+.Article__icon-home,
+.Article__icon-map-marker{
     color: var(--clr_airbnb-red);
 }
+.Article__icon-star_s {
+    font-size: 1rem;
+}
+.Article__icon-heart,
+.Article__icon-home,
+.Article__icon-map-marker,
+.Article__icon-heart_s,
+.Article__icon-share {
+    padding-right: 5px;
+}
 
-/* .Article__link {
-    display: inline-block;
-    background: red;
-    position: absolute;
-    z-index: 3;
-} */
+
+.Article__li {
+display: flex;
+flex-direction: row;
+padding-right: 10px;
+}
+
+.Article__header-heading {
+    text-align: start;
+}
+.Article__header-heading_p {
+    padding-bottom: 12px;
+}
+
