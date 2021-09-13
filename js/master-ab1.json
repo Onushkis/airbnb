@@ -1,0 +1,66 @@
+{
+  "Host": {
+    "name": "Ida",
+    "joindateYear": 2012,
+    "joindateMonth": "June",
+    "profilImge": "original.jpg",
+    "identityVerified": true,
+    "profiltext": "My name is Ida and I am 30 years old. I just moved in to this apartment in october 2015, so you can be sure to spent your vacation in a bran new and clean apartment :) I study french and danish to become a teacher, and i my spare time I love to go out with my friends and to travel. I am a very happy and outgoing person. I will welcome you in the appartement, but of course i won't be there, while you're living there. Please text me if you want to know more details :)",
+    "Xtrainfo": {
+      "language": {
+        "lang1": "Danish",
+        "lang2": "English",
+        "lang3": "Spanish"
+      },
+      "response100": true,
+      "responsetime": true
+    }
+  },
+  "ab1": {
+    "Header": "Apartment with sunny balcony!",
+    "review": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 4,
+      "6": 5
+    },
+    "Location": "Frederiksberg",
+    "list-item": {
+      "guest": 2,
+      "room": 1,
+      "bed": 1,
+      "bath": 1
+    },
+    "Images": [
+      {
+        "image1": "484a6800-f4c2-4ee1-a90f-49e1b71bae37.jpeg",
+        "image2": "bb35c956-19cc-4ad3-92f3-0b57cd22748b.jpeg",
+        "image3": "dd5c6391-e73a-49b6-b0b0-e03b1e0613e0.jpeg",
+        "image4": "e0b83d90-530a-4a1d-bd31-a3554ef1324a.jpeg",
+        "image5": "f9dd8835-2856-4c6d-b38b-ba7bef598b1f.jpeg"
+      }
+    ],
+    "Introtext": "The best thing in my apartment is the balcony where there is sun from morning till evening! The nice furnitures including the couch is also fantastic. There's a s-train and bus, 3 minutes from the appartement :) And the metro, that goes directly to the airport - it takes 22 minutes.",
+    "IntrotextSubHeader": "The space",
+    "IntrotextSubtext": "My apartement is on the 3 th floor with a great balcony, and because there's no apartment across it, there is sun from morning till evening.",
+
+    "Offer": {
+      "have": {
+        "o1": "TV",
+        "o2": "Kitchen",
+        "o3": "Dryer",
+        "o4": "Backyard",
+        "o5": "Wifi",
+        "o6": "Washer",
+        "o7": "Patio or balcony",
+        "o8": "Hair dryer"
+      },
+      "notHave": {
+        "o1": "Carbon monoxide alarm",
+        "o2": "Smoke alarm"
+      }
+    }
+  }
+}
