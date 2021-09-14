@@ -1,38 +1,39 @@
 document.addEventListener("DOMContentLoaded", () => {
-
-    fetch("./json/team.json")
+  const header = document.querySelector("#contentHeader");
+const dataFetch =  fetch("./js/master-ab1.json")
     .then((response) => {
       return response.json();
-    })
-    .then((data) => {
+    });
+    dataFetch.then((data) => {
       appendData(data);
-      console.log(data);
-    })
-    .catch((err) => console.log(err));
+        console.log(data.ab1.Images.imageurl);
+      //   console.log(data.ab1.listItem);
+    });
+    // .catch((err) => console.log(err));
+  let listing = document.querySelector("#unorderedList");
+  let image = document.querySelector("#cardImg");
+  // image.setAttribute("src",  `${imgSrc}`);
 
   function appendData(data) {
-    let mainContainer = document.querySelector("#myData");
+    header.textContent = data.ab1.Header;
+    imgSrc = "./img/" + data.ab1.Images.imageurl;
 
-    for (let i = 0; i < data.length; i++) {
+    data.ab1.Images.forEach(image => {
+      let img = document.createElement('img')
+      img.setAttribute("src", imgSrc);
+      listing.appendChild(img);
+    });
+    for (let i = 0; i < data.ab1.listItem.length; i++) {
       let item = document.createElement("li");
-      let image = document.createElement("img");
-      // item.classList.add("Team__list-item");
-      item.className =".Team__dynamic-style";
-      // item.classList.remove("Team__list-item");
-      // item.setAttribute("class", `${teamDynamicStyle}`)
-      item.innerHTML =
-        "Navn: " +
-        data[i].fornavn +
-        " " +
-        data[i].efternavn +
-        " " +
-        '<img src="./img/' +
-        data[i].imageLocal +
-        '">';
-      mainContainer.appendChild(item, image);
+    //   item.textContent = JSON.stringify(data.ab1.listItem[i]).replace('{', '').replace('}', '').replace(/\"/g, "");
+    //   item.textContent = JSON.stringify(data.ab1.listItem[i]).replace(/[{}\"]/g, "");
+      item.textContent = data.ab1.listItem[i].featureName + " " + data.ab1.listItem[i].amount;
+      item.className = "Article__li";
+
+      
+      listing.appendChild(item);
     }
+    
   }
   appendData;
-
-    
 });

@@ -18,29 +18,28 @@
   },
   "ab1": {
     "Header": "Apartment with sunny balcony!",
-    "review": {
-      "1": 5,
-      "2": 5,
-      "3": 5,
-      "4": 5,
-      "5": 4,
-      "6": 5
-    },
+    "review": [
+      { "reviewer": "1", "amount": 5 },
+      { "reviewer": "2", "amount": 5 },
+      { "reviewer": "3", "amount": 5 },
+      { "reviewer": "4", "amount": 5 },
+      { "reviewer": "5", "amount": 4 },
+      { "reviewer": "6", "amount": 5 }
+    ],
     "Location": "Frederiksberg",
-    "list-item": {
-      "guest": 2,
-      "room": 1,
-      "bed": 1,
-      "bath": 1
-    },
+    "listItem": [
+      { "featureName": "guests", "amount": 2 },
+      { "featureName": "room", "amount": 1 },
+      { "featureName": "bed", "amount": 1 },
+      { "featureName": "bath", "amount": 1 }
+    ],
     "Images": [
-      {
-        "image1": "484a6800-f4c2-4ee1-a90f-49e1b71bae37.jpeg",
-        "image2": "bb35c956-19cc-4ad3-92f3-0b57cd22748b.jpeg",
-        "image3": "dd5c6391-e73a-49b6-b0b0-e03b1e0613e0.jpeg",
-        "image4": "e0b83d90-530a-4a1d-bd31-a3554ef1324a.jpeg",
-        "image5": "f9dd8835-2856-4c6d-b38b-ba7bef598b1f.jpeg"
-      }
+      { "imageurl": "484a6800-f4c2-4ee1-a90f-49e1b71bae37.jpeg" },
+      { "imageurl": "484a6800-f4c2-4ee1-a90f-49e1b71bae37.jpeg" },
+      { "imageurl": "bb35c956-19cc-4ad3-92f3-0b57cd22748b.jpeg" },
+      { "imageurl": "dd5c6391-e73a-49b6-b0b0-e03b1e0613e0.jpeg" },
+      { "imageurl": "e0b83d90-530a-4a1d-bd31-a3554ef1324a.jpeg" },
+      { "imageurl": "f9dd8835-2856-4c6d-b38b-ba7bef598b1f.jpeg" }
     ],
     "Introtext": "The best thing in my apartment is the balcony where there is sun from morning till evening! The nice furnitures including the couch is also fantastic. There's a s-train and bus, 3 minutes from the appartement :) And the metro, that goes directly to the airport - it takes 22 minutes.",
     "IntrotextSubHeader": "The space",
