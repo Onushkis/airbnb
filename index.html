@@ -92,12 +92,12 @@
             </p>
           </footer>
           <!-- Article item -->
-          
+          <div id="articleContent"></div>
           <article class="Article">
            
             <a class="Article__link" href="./page-two.html" target="_blank" rel="noopener noreferrer"> 
               <div class="Article__img-container">
-                <img
+                <img id="#cardImg"
                 class="Article__img"
                 src="http://unsplash.it/300/200?random&gravity=center"
                 alt=""
@@ -106,11 +106,12 @@
             <div class="Article__text-content">
               <header class="Article__header">
                 <p class="Article__header-text">Lorem.</p>
-                <h2 class="Article__header-heading">
+
+                <h2 id="contentHeader" class="Article__header-heading">
                   Lorem ipsum dolor sit amet.
                 </h2>
-                <ul class="Article__unordered-list">
-                  <li class="Article__li"><a
+                <ul id="unorderedList" class="Article__unordered-list">
+                  <!-- <li class="Article__li"><a
                     href="#"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -140,7 +141,7 @@
                     rel="noopener noreferrer"
                     class="Article__item-link"
                     >Est.</a
-                  ></li>
+                  ></li> -->
                 </ul>
               </header>
               <footer class="Article__footer">
@@ -491,5 +492,6 @@
         </aside>
       </div>
     </main>
+    <script src="./js/script.js"></script>
   </body>
 </html>
